@@ -17,7 +17,7 @@ const Product = db.define('product', {
     allowNull: false,
   },
   price: {
-    type: DataTypes.NUMBER,
+    type: DataTypes.DECIMAL,
     allowNull: false,
   },
   imageUrl: {
